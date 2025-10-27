@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYLshop - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;">
+</head>
+
+<body>
+    <header class="site-header">
+        <a href="index.html" class="logo">
+            <h1>DYLshop</h1>
+            <nav class="main-nav" aria-label="Navigation principale de la boutique">
+                <ul>
+                    <li><a href="#produits">Produits</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#">Panier (0)</a></li>
+                </ul>
+            </nav>
+        </a>
+    </header>
+
+    <main>
+        <section class="hero" role="banner">
+            <h2>Bienvenue sur DYLshop !</h2>
+            <p>Découvrez nos produits physiques, numériques et services.</p>
+        </section>
+        <section id="produits" class="product-list" aria-labelledby="heading-prouits">
+            <h2 id="heading-produits">Nos Derniers Produits</h2>
+            <div id="produits-container" class="grid-container"></div>
+        </section>
+        <section id="contact" class="contact-info" aria-labelledby="heading-contact">
+            <h2 id="heading-contact">Nous Contacter</h2>
+            <p>Pour toute question ou demande d'information, veuillez nous contacter par email. Nous vous répondrons
+                rapidement
+                !</p>
+            <p class="contact-link">
+                <a href="mailto:laurent.houssin.developpeur@outlook.fr?subject=Question%20DYLshop" target="_blank">
+                    Envoyer un email à DYLshop
+                </a>
+            </p>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p>&copy; 2024 DYLshop. Tous droits réservés.</p>
+        <p><a href="#">Mentions légales</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
